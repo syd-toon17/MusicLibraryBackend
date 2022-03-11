@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.songs_list),
-    # path('<int:pk>/', views.music),
+    path('<int:pk>/', views.music),
 ]
